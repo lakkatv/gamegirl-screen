@@ -288,8 +288,8 @@ void begin() {
   // Initialise backlight
 //  pinMode(_backlight, PWM_OUTPUT);
 //  pwmWrite(_backlight, 1023);
-//  pinMode(_backlight, OUTPUT);
-//  digitalWrite(_backlight, HIGH);
+  pinMode(_backlight, OUTPUT);
+  digitalWrite(_backlight, HIGH);
   
   /*
   pwmSetMode  (PWM_MODE_BAL) ;	// Pi default mode
